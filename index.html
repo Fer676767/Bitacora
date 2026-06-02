@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="icon" 
+type="image/x-icon" href="C:\Users\Alumno Capouilliez\Documents\MoralesBarrios11B\Recursos\img\Escudo capouilliez.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora tecnología Morales Barrios</title>
+    <style>
+      
+      .semana{
+      background-color: #ffffff; /* Fondo blanco para la tarjeta */
+  border-radius: 12px;       /* Bordes redondeados elegantes */
+  padding: 20px;             /* Espacio dentro de la tarjeta */
+  margin: 20px 0;            /* Espacio entre tarjetas */
+  
+  /* Sombra suave para dar profundidad */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  
+  /* Borde sutil para definir la forma */
+  border: 1px solid #e1e1e1;
+  
+  /* Transición suave para cuando interactuemos con ella */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  max-width: 600px;          /* Ancho máximo sugerido */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;               /* Color de texto oscuro para lectura clara */}
+
+  .semana:hover{
+  transform: translateY(-5px); /* Se eleva ligeramente */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* La sombra se intensifica */
+  border-color: #bc13fe; /* El borde cambia al morado de tu logo */
+}
+
+      .logo3{
+    width: 200px; /* Ajusta al tamaño de tu logo */
+    transition: transform 0.3s ease; /* Controla la velocidad (0.3 segundos) */
+    cursor: pointer;}
+
+  /* El efecto ocurre cuando pasas el mouse (hover) */
+  .logo3:hover{
+    transform: scale(1.1); /* 1.1 = 110% de su tamaño original */}
+
+      h1{
+      color: #fff;
+            font-size: 5rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            cursor: pointer;
+            
+            /* El truco del neón: múltiples capas de sombra */
+            text-shadow: 
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #13feb0,
+                0 0 82px #13feb0,
+                0 0 92px #13feb0,
+                0 0 102px #13feb0,
+                0 0 151px #13feb0;
+            
+            /* Animación opcional para darle vida */
+            transition: all 0.3s ease;}
+
+            h1:hover{
+      color: #ffffff;
+            text-shadow: 
+                0 0 7px #bc13fe,
+                0 0 10px #bc13fe,
+                0 0 21px #bc13fe,
+                0 0 42px #bc13fe,
+                0 0 82px #bc13fe;}
+
+      html,body{
+      Height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    header{
+      padding: 20px;
+      border-bottom: 1px solid rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+    }
+    Main{
+      Flex: 1;
+      Padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    Footer{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      border-top: 1px solid rgb(255, 255, 255);  
+      background-color: rgb(0, 0, 0);
+    }
+    @media(max-width:600px){
+      footer{
+        flex-direction: column;
+        gap: 15px;
+        padding:20px;
+      }
+    }
+    </style>
+</head>
+<body>
+  
+  <header>
+<h1>Encabezado de mi pagina web</h1>
+  </header>
+  <main>
+  
+    <div class="semana">
+  <h3>Semana 1: Introducción al Proyecto</h3>
+  <p>Hoy comenzamos con el diseño de la interfaz y la elección de la paleta de colores neón...</p>
+  <small>Publicado el 21 de abril, 2026</small>
+</div>
+
+<div class="semana">
+  <h3>Semana 2: Desarrollo de Estilos</h3>
+  <p>Implementamos los efectos de sombra y las transiciones en los logos...</p>
+  <small>Publicado el 28 de abril, 2026</small>
+</div>
+  </main>
+  <footer>
+    <span>2026 @best_city_boy67</span>
+<img src="https://www.capouilliez.edu.gt/assets/img/logo.png" alt="logo" class="logo3">
+  </footer>
+  
